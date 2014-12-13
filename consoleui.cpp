@@ -27,7 +27,7 @@ int ConsoleUI::start() {
 
 void ConsoleUI::clear() {
     // Not pretty, but it is platform independant
-    std::cout << std::string( 100, '\n' );
+    std::cout << std::string( 1, '\n' );
 }
 
 void ConsoleUI::waitForPrompt() {
